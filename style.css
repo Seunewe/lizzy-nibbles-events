@@ -1,0 +1,94 @@
+*{
+ margin: 0;
+ padding: 0; 
+ scroll-behavior: smooth;  
+}
+/* Navbar */
+.back {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("./Images/menu\ .jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav .navbar {
+    position: absolute;
+    opacity: 1 !important;
+}
+.navbar-brand img {
+    width: 160px;
+}
+.navbar-toggler-icon {
+    background-color: white !important;
+}
+.navbar-nav .nav-item a {
+    color: white;
+    font-weight: 700;
+}
+.we {
+    color: white;
+    text-align: end;
+    padding-top: 20px;
+}
+
+/* Services */
+.food {
+    display: flex;
+    justify-content: space-around;
+}
+.services h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    color: rgba(199, 0, 0, 0.8);
+}
+.services img {
+    width: 100%;
+}
+
+/* Menu */
+.menu-list h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    color: rgba(199, 0, 0, 0.8);
+}
+.menu-list img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/* Job Done */
+.job {
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    color: rgba(199, 0, 0, 0.8);
+}
+
+/* Footer */
+footer {
+    padding-top: 20px;
+    color: #ffff;
+    background-color: #0000;
+}
+.foot {
+    background-color: black;
+    
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.email {
+    padding-top: 10px;
+    text-align: center;
+}
+.des {
+    font-size: 0.7rem;
+    color: grey;
+    text-align: center;
+    padding-bottom: 5px;
+}
